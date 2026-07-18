@@ -1,12 +1,14 @@
 <h3>Trapani Lab Igor procedure files for analysis of zebrafish physiology (zphys) data</h3>
 
-* Note: place all files within the folder *Wavemetrics/Igor Pro 9 User Files/Igor Procedures/
+To run: 
 
-* Note: HEKA file open requires a SutterPatch amplifier or [Power Patcher's Tools][1] XOP file installed in the folder *Wavemetrics/Igor Pro 9 User Files/Igor Extensions/
+* Place all procedure files within the folder /Wavemetrics/Igor Pro 9 User Files/Igor Procedures/
+* Open a new instances of Igor Pro
+* Select the menu item <}}}>< and choose "zphys panel"
+* Load a SutterPatch PXP file directly be clicking the purple "Load Sutter PXP" button
 
+Note: Opening a HEKA file open requires a connected SutterPatch amplifier
 
-* Note: if using PClamp files, they need to be in [ABF1 file format][2].
+Note: Opening PClamp files requires them to be in [ABF1 file format][1]
 
-
-[1]: <link>http://www.trapanilab.com/files/PPT.zip</link> "Power Patcher's Tools"
-[2]: http://mdc.custhelp.com/app/answers/detail/a_id/17379/kw/abf%20convert  "Axon ABF File Conversion"
+[1]: http://mdc.custhelp.com/app/answers/detail/a_id/17379/kw/abf%20convert  "Axon ABF File Conversion"
